@@ -1,0 +1,42 @@
+body{
+  list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+
+}
+h1{
+  text-align: center;
+  font-family: Times;
+  font-size: 100px;
+  font-feature-settings: "smcp", "zero";
+}
+
+img {
+  width: 40%;
+  height: auto;
+}
+
+.titleArth{
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+#articleDescription {
+  float: right;
+  width: 45%;
+  margin-right: 13%;
+}
+
+#articlePublish {
+  float: left;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+#articleTitle {
+  float: left;
+}
+
+#articleAuthor{
+
+}
